@@ -27,9 +27,9 @@ Follow these steps to run the project locally:
     git clone https://github.com/anindyaPrivate/IMDB-movie-rating-review-classifiaction.git
 
 2. **Navigate to the project directory**:
-```bash
+   ```bash
 cd your-repository
-
+   
 3. **Create and activate a virtual environment**:
 
     ```bash
@@ -46,13 +46,14 @@ cd your-repository
       source .venv/bin/activate
       ```
 
-
-4.Install the dependencies:
+4.**Install the dependencies**:
+ ```bash
 pip install -r requirements.txt
-
-5.Run the Streamlit app:
+```
+5.**Run the Streamlit app**:
+```bash
 streamlit run main.py
-
+```
 
 
 📋 Usage
