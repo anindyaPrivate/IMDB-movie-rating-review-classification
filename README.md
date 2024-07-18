@@ -26,13 +26,26 @@ Follow these steps to run the project locally:
    ```bash
     git clone https://github.com/anindyaPrivate/IMDB-movie-rating-review-classifiaction.git
 
-2.Navigate to the project directory
+2. **Navigate to the project directory**:
+```bash
 cd your-repository
 
-3.Create and activate a virtual environment:
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-source .venv/bin/activate  # macOS/Linux
+3. **Create and activate a virtual environment**:
+
+    ```bash
+    python -m venv .venv
+    ```
+
+    - **Windows**:
+      ```bash
+      .venv\Scripts\activate
+      ```
+      
+    - **macOS/Linux**:
+      ```bash
+      source .venv/bin/activate
+      ```
+
 
 4.Install the dependencies:
 pip install -r requirements.txt
