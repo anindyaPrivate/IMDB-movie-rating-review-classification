@@ -26,6 +26,22 @@ Follow these steps to run the project locally:
    ```bash
     git clone https://github.com/anindyaPrivate/IMDB-movie-rating-review-classifiaction.git
 
+2.Navigate to the project directory
+cd your-repository
+
+3.Create and activate a virtual environment:
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate  # macOS/Linux
+
+4.Install the dependencies:
+pip install -r requirements.txt
+
+5.Run the Streamlit app:
+streamlit run main.py
+
+
+
 📋 Usage
 1.Enter a movie review: Type or paste a movie review into the text area.
 2.Classify: Click the "Classify" button to see the sentiment classification.
