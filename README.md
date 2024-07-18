@@ -57,6 +57,7 @@ streamlit run main.py
 
 
 📋 Usage
+
 1.Enter a movie review: Type or paste a movie review into the text area.
 
 2.Classify: Click the "Classify" button to see the sentiment classification.
@@ -64,6 +65,7 @@ streamlit run main.py
 3.View Results: The sentiment (Positive/Negative) and prediction score will be displayed.
 
 🧰 Requirements
+
 Python 3.9+
 
 TensorFlow 2.16.1
@@ -71,6 +73,7 @@ TensorFlow 2.16.1
 Streamlit 1.4.0
 
 📊 Model
+
 The Simple RNN model used in this project is trained on the IMDB dataset and includes:
 
 Embedding Layer: Converts words to dense vectors.
